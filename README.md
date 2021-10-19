@@ -27,7 +27,10 @@ Using API for Crypto Currency Data from: [CryptoCompare](https://min-api.cryptoc
  1. Uncomment `InputSearch` component inside `src/pages/CoinTopList/index.js`
  2. Add the proper code to filter the the current list, it should be only local, don't worry about filtering using the API
 
-## EXTRA_TASK: Allow the user to select the page size for the API call
+## EXTRA_TASK_1: Allow the user to select the page size for the API call
   1. Add 3 buttons at the bottom that will represent the API call page size
   2. Can be any value, we suggest `20, 50, 100`
   3. Refresh the coin list every time the user press one of this buttons
+
+## EXTRA_TASK_2: Create a custom hoom
+  1. Move the logic inside `src/components/CoinList/index.js` into a custom hook

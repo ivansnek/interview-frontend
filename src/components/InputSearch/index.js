@@ -8,6 +8,8 @@ function InputSearch({ value, onChange, inputProps }) {
       <input
         type="search"
         className="input-search"
+        value={value}
+        onChange={onChange}
         {...inputProps}
       />
     </div>
