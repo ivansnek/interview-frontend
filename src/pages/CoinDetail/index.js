@@ -28,7 +28,7 @@ function CoinDetail() {
             <h4>Description: </h4>
             <p>{coin.Description}</p>
             <h4>Project</h4>
-            <Link to={coin.AssetWebsiteUrl}>{coin.AssetWebsiteUrl}</Link>
+            <a target="_blank" href={coin.AssetWebsiteUrl}>{coin.AssetWebsiteUrl}</a>
           </div>
         </section>
       )}
